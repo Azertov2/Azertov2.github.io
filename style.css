@@ -1,0 +1,80 @@
+body {
+   animation: mymove 10s ease infinite;
+  background-color: #A0A0A0;
+   text-align: center;
+    font-family: "sans serif";
+      body, body * - "sans serif" !important
+ }
+
+.colorChange {
+ font-family: 'helvetica';
+  }
+
+@keyframes mymove {
+  0% {
+    color: #00732C;
+  }
+  20% {
+    color: #FFED80;
+    }
+  40% {
+    color: #E50071;
+    }
+  60% {
+    color: #008BD2;
+    }
+  80% {
+    color: #EF7C00;
+    }
+  100% {
+    color: #00732C;
+    }
+  }
+
+button {
+  animation: momove 10s ease infinite;
+  background-color: #A0A0A0;
+  font-family: "sans serif";
+    button, button * - "sans serif" !important
+    position: absolute;
+    left: 100px;
+    
+  }
+
+@keyframes momove {
+   0% {
+    color: #00732C;
+  }
+  20% {
+    color: #FFED80;
+    }
+  40% {
+    color: #E50071;
+    }
+  60% {
+    color: #008BD2;
+    }
+  80% {
+    color: #EF7C00;
+    }
+  100% {
+    color: #00732C;
+    }
+  }
+
+p {
+  left: 110px;
+   position: absolute;
+  right: 110px;
+  }
+
+h6 {
+  color: #A0A0A0;
+   position: absolute;
+  top: 100px;
+  }
+
+p.yes {
+   text-decoration: none;  
+     animation: momove 10s ease infinite;
+}
