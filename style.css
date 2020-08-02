@@ -92,3 +92,7 @@ a {
  text-decoration: none;  
 }
 
+button.acceuil {
+ position: relative;
+   right: 300px;
+}
