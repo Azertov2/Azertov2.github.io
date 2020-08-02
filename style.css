@@ -83,7 +83,7 @@ input {
  border: gray 1px solid;  
 }
 
-p.text {
+div.text {
  position: relative; 
    top: 70px;
    text-decoration: none;  
