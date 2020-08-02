@@ -85,7 +85,8 @@ input {
 
 p.text {
  position: relative; 
-   top: 50px;
+   top: 70px;
+   text-decoration: none;  
 }
 
 a {
