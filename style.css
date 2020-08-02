@@ -38,6 +38,7 @@ button {
     button, button * - "sans serif" !important
     position: absolute;
     left: 100px;
+   border: black 1px solid;
     
   }
 
@@ -77,4 +78,8 @@ h6 {
 p.yes {
    text-decoration: none;  
      animation: momove 10s ease infinite;
+}
+
+input {
+ border: black 1px solid;  
 }
