@@ -67,6 +67,7 @@
   var inpObj = document.getElementById("rp");
   if (!inpObj.checkValidity()) {
     document.getElementById("messa").innerHTML = "Mauvaise réponse";
+     setTimeout(function(){ location.reload()}, 5000);
   } else {
     document.getElementById("messag").innerHTML = "Bonne réponse - Cliquez ici pour accèder à la deuxième épreuve";
   } 
