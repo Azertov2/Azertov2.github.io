@@ -38,7 +38,6 @@ button {
     button, button * - "sans serif" !important
     position: absolute;
     left: 100px;
-   border: black 1px solid;
     
   }
 
@@ -81,5 +80,10 @@ p.yes {
 }
 
 input {
- border: black 1px solid;  
+ border: gray 1px solid;  
+}
+
+p.text {
+ position: relative; 
+   top: 50px;
 }
