@@ -94,5 +94,6 @@ a {
 
 button.acceuil {
  position: relative;
-   left: 700px;
+   right: 700px;
+   bottom: 75px;
 }
