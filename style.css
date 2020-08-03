@@ -37,7 +37,6 @@ button {
   font-family: "sans serif";
     button, button * - "sans serif" !important
     position: absolute;
-    left: 100px;
     border: black 1px solid;
     height: 40px;
     width: 150px;
@@ -102,7 +101,7 @@ a {
 
 button.acceuil {
  position: relative;
-   right: 3400px;
+   right: 1400px;
    bottom: 75px;
        border: black 1px solid;
     height: 40px;
