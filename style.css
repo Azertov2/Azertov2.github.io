@@ -88,6 +88,7 @@ input {
  border: gray 1px solid;  
    width: 150px;
    height: 40px;
+   border-radius: 120px;
 }
 
 div.text {
