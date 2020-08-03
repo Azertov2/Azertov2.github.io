@@ -88,11 +88,12 @@ input {
    width: 150px;
    height: 40px;
    border-radius: 120px;
-input::outer-spin-button,
-input::inner-spin-button {
-  appearance: none;
-  margin: 0;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 div.text {
