@@ -45,7 +45,7 @@ input.cheh {
 button.acceuil {
  position: relative;
    right: 515px;
-   bottom: 10px;
+    top: 10px;
        border: black 1px solid;
     height: 40px;
     width: 150px;
@@ -58,7 +58,7 @@ button.acceuil {
 button.acceui {
  position: relative;
    right: 520px;
-   bottom: 10px;
+   top: 10px;
        border: black 1px solid;
     height: 40px;
     width: 150px;
