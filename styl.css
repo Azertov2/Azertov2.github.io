@@ -1,0 +1,138 @@
+body {
+    animation: mymove 10s ease infinite;
+    position: relative;
+      font-family: "Comic Sans MS";
+    body, body * - "Comic Sans MS" !important
+}
+
+input.cheh {
+    background-color: transparent;
+    border: 1px black solid;
+    font-family: "Comic Sans MS";
+    position: relative;
+    
+}
+
+.id {
+    font-family: "Comic Sans MS";
+}
+
+input {
+ border: gray 1px solid;  
+   width: 150px;
+   height: 40px;
+   border-radius: 120px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.cheh {
+  animation: momove 10s ease infinite;
+  background-color: transparent;
+  font-family: "sans serif";
+    button, button * - "sans serif" !important
+    position: absolute;
+    border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+  }
+button.acceuil {
+ position: relative;
+   right: 515px;
+   bottom: 60px;
+       border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+   margin: 0px 0px 0px 0px;
+    animation: momove 10s ease infinite;
+}
+
+button.acceui {
+ position: relative;
+   right: 520px;
+   bottom: 60px;
+       border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+   margin: 0px 0px 0px 0px;
+    animation: momove 10s ease infinite;
+}
+
+div.fond {
+ opacity: 0.5;
+    background-color: white;
+    border-radius: 600px;
+    text-align: center;
+    animation: momove 10s ease infinite;
+    padding: 30px 20px 30px 20px;
+    margin: 40px 200px 0px 200px;
+}
+
+@keyframes momove {
+  0% {
+    color: #00732C;
+  }
+  20% {
+    color: #FFED80;
+    }
+  40% {
+    color: #E50071;
+    }
+  60% {
+    color: #008BD2;
+    }
+  80% {
+    color: #EF7C00;
+    }
+  100% {
+    color: #00732C;
+    }
+  }
+
+
+@keyframes mymove {
+  0% {
+    background-color: #00732C;
+  }
+  20% {
+    background-color: #FFED80;
+    }
+  40% {
+    background-color: #E50071;
+    }
+  60% {
+    background-color: #008BD2;
+    }
+  80% {
+    background-color: #EF7C00;
+    }
+  100% {
+    background-color: #00732C;
+    }
+  }
+
+
+
+div {
+    bottom: 200px;
+}
+
+
+a.ds {
+ text-decoration: none;   
+}
+
+p.di {
+ text-decoration: none;
+    color:black;
+}
