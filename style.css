@@ -116,3 +116,15 @@ button.acceuil {
     border-radius: 120px;
    margin: 0px 200px 0px 0px;
 }
+
+button.acceui {
+ position: relative;
+   right: 500px;
+   bottom: 75px;
+       border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+   margin: 0px 200px 0px 0px;
+}
