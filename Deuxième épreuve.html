@@ -5,15 +5,14 @@
   <link rel="stylesheet" href="styl.css">
   </head>
     <body>
-        <div class="bg">
-       
+       <div class="fond">
+       <button onclick="location.href='https://azertov2.github.io'" class="acceui"> Accueil </button> <button onclick="location.href='https://azertov2.github.io/solution.html'" class="acceuil"> Solutions </button>
         <h1> Rien d'intéressant </h1>
         <p> Vu que le site ne contient rien d'intéressant, voici quelques faits intéressants : <br>
             <br>
             -le 3 mai 1978, Gary Thuerk, employé au service marketing de la société américaine DEC System 2020,<br>
             a envoyé un e-mail à 393 personnes pour les convier à la présentation d’un nouvel ordinateur créé par<br>
             son entreprise. Sans le savoir, Gary Thuerk a envoyé le premier SPAM de l’histoire d’Internet.<br>
-            <img src="Gary.jpg">
             <br>
             -En 2010, La Finlande est devenue le premier pays au monde à faire de l’accès à Internet haut débit<br>
             un droit légal. Depuis, Les fournisseurs d’accès sont obligés de proposer des connections à haut débit<br>
@@ -24,20 +23,18 @@
             par Radicati Group estime que le nombre aurait atteint 269 milliards en une journée. Malheureusement,<br>
             la plupart de ces courriels sont des SPAM.
         </p>
-       
-    <h3> Gary Thuerk ⤴ </h3>
-        <button id="indice" onclick="myFunctio()">
-            𝘐𝘯𝘥𝘪𝘤𝘦
-        </button>
+                      
+        <input type="button" class="cheh" id="indice" onclick="myFunctio()" value="𝘐𝘯𝘥𝘪𝘤𝘦">
+
+      
         <p id="message"></p>
         <br>
         <input type="number" id="rp" placeholder="𝘈𝘯𝘸𝘴𝘦𝘳" min="1502" max="1504" required>
-        <button onclick="myFunction()">
-            𝘌𝘯𝘷𝘰𝘪
-            </button>
+        <input type="button" onclick="myFunction()" value="𝘌𝘯𝘷𝘰𝘪" class="cheh">
+            
        <a class="ds" href="https://azertov2.github.io/Troisième%20épreuve.html"> <p id="messag" class="di"></p> </a>
         </div>
-        <area reponse="1503">
+        <area réponse = 1503>
         
         <script>
            function myFunctio() {
@@ -49,6 +46,7 @@
   var inpObj = document.getElementById("rp");
   if (!inpObj.checkValidity()) {
     document.getElementById("messag").innerHTML = "Mauvaise réponse";
+      setTimeout(function(){ location.reload()}, 3000);
   } else {
     document.getElementById("messag").innerHTML = "Bonne réponse - Cliquez ici ";
   } 
