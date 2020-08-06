@@ -34,6 +34,7 @@
         <input type="button" onclick="myFunction()" value="𝘌𝘯𝘷𝘰𝘪" class="cheh">
             
        <a class="ds" href="https://azertov2.github.io/Troisième%20épreuve.html"> <p id="messag" class="di"></p> </a>
+         <p id="messa"></p>
         </div>
         <area réponse = 1503>
         
@@ -46,7 +47,7 @@
              function myFunction() {
   var inpObj = document.getElementById("rp");
   if (!inpObj.checkValidity()) {
-    document.getElementById("messag").innerHTML = "Mauvaise réponse";
+    document.getElementById("messa").innerHTML = "Mauvaise réponse";
       setTimeout(function(){ location.reload()}, 3000);
   } else {
     document.getElementById("messag").innerHTML = "Bonne réponse - Cliquez ici ";
