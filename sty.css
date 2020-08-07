@@ -61,6 +61,21 @@ button.bo {
     margin: 50px 0px 0px 0px;
 }
 
+p {
+    animation: momove ease infinite 10s;
+    font-size: 15px;
+    text-align: center;
+}
+
+div.bi {
+ background-color: white;
+    border: black 1px solid;
+    opacity: 0.5;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 500px 0px 500px;
+    border-radius: 25px;
+}
+
 @keyframes mymove {
   0% {
     background-color: #00732C;
@@ -117,6 +132,14 @@ img {
     border: black 1px solid;
 }
 
+p.friend {
+ font-size: 30px;
+    background-color:white;
+    opacity: 0.5;
+    margin: 0px 400px 0px 400px;
+    border-radius: 30px;
+}
+
 h1 {
  font-size: 40px;
     animation: momove ease infinite 10s;
@@ -124,4 +147,72 @@ h1 {
     border-radius: 40px;
     opacity: 0.5;
     margin: 0px 400px 0px 400px;
+    text-align: center;
+}
+
+h3 {
+     font-size: 40px;
+    animation: momove ease infinite 10s;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.5;
+    margin: 0px 400px 0px 400px;
+}
+
+h2 {
+     font-size: 40px;
+    animation: momove ease infinite 10s;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.5;
+    margin: 0px 400px 0px 400px;
+    text-align: center;
+    position: relative;
+    right: 280px;
+}
+
+div.glouglou {
+ background-color: white;
+    opacity: 0.5;
+    margin: 0px 540px 0px 540px;
+    border: black 1px solid;
+    padding: 0px 0px 20px 0px;
+    border-radius: 20px;
+}
+
+h2.h2 {
+     font-size: 40px;
+    animation: momove ease infinite 10s;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.5;
+    margin: 0px 400px 0px 400px;
+    text-align: center;
+    position: relative;
+    right: 320px;
+}
+
+
+
+hr {
+ border: black 1px solid;   
+}
+
+input {
+  animation: momove 10s ease infinite;
+  background-color: transparent;
+  font-family: "sans serif";
+    button, button * - "sans serif" !important
+    position: absolute;
+    border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
