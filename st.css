@@ -57,7 +57,7 @@ button {
 
 button.acceuil {
  position: relative;
-    bottom: 70px;
+    bottom: 85px;
    right: 535px;
        border: black 1px solid;
     height: 40px;
@@ -128,7 +128,7 @@ input::-webkit-inner-spin-button {
 button.acceui {
  position: relative;
    right: 510px;
-    bottom: 70px;
+    bottom: 85px;
        border: black 1px solid;
     height: 40px;
     width: 150px;
