@@ -1,0 +1,109 @@
+body {
+ animation: mymove ease infinite 10s;
+    text-align: center;
+}
+
+@keyframes momove {
+  0% {
+    color: #00732C;
+  }
+  20% {
+    color: #FFED80;
+    }
+  40% {
+    color: #E50071;
+    }
+  60% {
+    color: #008BD2;
+    }
+  80% {
+    color: #EF7C00;
+    }
+  100% {
+    color: #00732C;
+    }
+  }
+
+@keyframes mymove {
+  0% {
+    background-color: #00732C;
+  }
+  20% {
+    background-color: #FFED80;
+    }
+  40% {
+    background-color: #E50071;
+    }
+  60% {
+    background-color: #008BD2;
+    }
+  80% {
+    background-color: #EF7C00;
+    }
+  100% {
+    background-color: #00732C;
+    }
+  }
+
+h1 {
+ font-size: 40px;
+    animation: momove ease infinite 10s;
+    background-color: white;
+    border-radius: 40px;
+    margin: 0px 400px 0px 400px;
+    text-align: center;
+    opacity: 0.5;
+    padding: 5px 0px 5px 0px;
+}
+
+h3 {
+  font-size: 20px;
+    color: black;
+    background-color: transparent;
+}
+
+p {
+font-size: 20px;
+    animation: momove ease infinite 10s;
+    background-color: white;
+    border-radius: 40px;
+    margin: 0px 500px 0px 500px;
+    text-align: center;
+    opacity: 0.5;
+    padding: 20px 0px 20px 0px;
+}
+
+button.acceuil {
+ position: relative;
+    bottom: 60px;
+   right: 535px;
+       border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+   margin: 0px 0px 0px 0px;
+    animation: momove 10s ease infinite;
+    opacity: 0.5;
+}
+
+button.acceui {
+ position: relative;
+   right: 510px;
+    bottom: 60px;
+       border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+   margin: 0px 30px 0px 0px;
+    animation: momove 10s ease infinite;
+    opacity: 0.5;
+}
+
+img {
+ height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: black 1px solid;
+}
