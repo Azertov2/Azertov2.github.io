@@ -87,6 +87,17 @@ button.acceuil {
     opacity: 0.5;
 }
 
+button {
+border: black 1px solid;
+    height: 40px;
+    width: 150px;
+       font-size: 20px;
+    border-radius: 120px;
+   margin: 0px 0px 0px 0px;
+    animation: momove 10s ease infinite;
+    opacity: 0.5;
+}
+
 button.acceui {
  position: relative;
    right: 510px;
